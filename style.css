@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: auto;
+  margin-top: 5px;
+  width: 60%;
+  /* border: 3px solid red; */
+  padding: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  color: aliceblue;
+  background-color: #ab183d;
+}
+
+.header__span {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-right: 250px;
+  text-align: center;
+}
+
+.nav__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.nav__list__items {
+  float: left;
+}
+
+.nav__list__items a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 24px;
+  text-decoration: none;
+}
+
+.nav__list__items a:hover {
+  background-color: #111111;
+}
+
+.mid_section_h31 {
+  text-align: center;
+  font-size: large;
+  padding-top: 24px;
+}
+
+.mid_section_h32 {
+  text-align: center;
+  font-size: small;
+  padding: 10px;
+  color: #008000;
+}
+
+.mid_section_h32 strong {
+  color: #ff0000;
+}
+
+.mid_section_h33 {
+  font-size: large;
+  padding-top: 10px;
+}
+
+.mid_section__marquee {
+  font-size: small;
+  color: darkblue;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.btn_section {
+    display: flex;
+    justify-content: center;
+}
+
+.mid_section_button {
+  color: white;
+  background-color: lightblue;
+  border-radius: 5px;
+  border: none;
+  font-size: small;
+  margin: 10px;
+}
+
+.toolsec {
+    display: flex;
+    justify-content: center;    
+    
+}
+
+.toolsec h2 {
+    color: white;
+    background-color: blue;
+}
+
+.tiles {
+    display: flex;
+    /* justify-content:space-between; */
+    flex-wrap: wrap;
+    margin-top: 24px;
+}
+
+.tiles_sec1 {
+    width: 200px;
+    background-color: yellow;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+.tiles_sec2 {
+    width: 200px;
+    background-color: blue;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+.tiles_sec3 {
+    width: 200px;
+    background-color: orangered;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+.tiles_sec4 {
+    width: 200px;
+    background-color: red;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+.tiles_sec5 {
+    width: 200px;
+    background-color: red;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+.tiles_sec6 {
+    width: 200px;
+    background-color: green;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+.tiles_sec7 {
+    width: 200px;
+    background-color: pink;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+.tiles_sec8 {
+    width: 200px;
+    background-color: lightblue;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+
+.main_section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.main_section_list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 200px;
+    /* padding: 15px; */
+    /* text-align: center; */
+    border: 4px solid black;
+    margin: 24px;
+}
+
+.main_section_list_heading {
+    border: 2px solid rebeccapurple;
+    background-color: #ab183d;
+    color: wheat;
+    padding: 10px;
+    text-align: center;
+}
+
+.main_section_lists {
+    margin: 20px;
+    padding: 10px;
+}
+
+.main_section_lists li {
+    /* list-style-type: none; */
+}
+
+.view_more {
+    margin-left: 150px;
+    color: solid blue;
+}
+
+.view_more a {
+    text-decoration: none;
+}
+
+.badge {
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer {
+    display: flex;
+    justify-content:space-around;
+    margin-top: 30px;
+}
+.quick_links h3 {
+    padding: 20px;
+}
+
+.quick_links li {
+    list-style-type: none;
+    padding: 5px;
+}
+.quick_links li a {
+    text-decoration: none;
+}
+
+.apps h3 {
+    padding: 20px;
+}
+.apps li {
+    list-style-type: none;
+    padding: 5px;
+}
+.apps li a {
+    text-decoration: none;
+}
+
+.more h3 {
+    padding: 20px;
+}
+
+.more li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.more li a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
